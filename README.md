@@ -19,6 +19,7 @@ There are two projects:
 Run the following commands:
 
 `./gradlew build` 
+
 `./gradlew bootRun` 
 
 This is the Swagger URL:
@@ -51,7 +52,9 @@ Also there is a JSON file `porftolio-service.postman_collection.json` to import 
 Run the following commands:
 
 `mvn clean` 
+
 `mvn install` 
+
 `mvn spring-boot:run` 
 
 This is the first page
