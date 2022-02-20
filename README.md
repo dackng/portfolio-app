@@ -2,8 +2,8 @@
 
 There are two projects:
 
-- portfolio-service : API with two endpoints, GET is for getting the porftolio by user and PUT is for updating all the porftolio.
-- portfolio-webapp : java web app like the front part with two API as consummers that are `portfolio API` and `Twitter API`
+- portfolio-service (five hours): API with two endpoints, GET is for getting the porftolio by user and PUT is for updating all the porftolio.
+- portfolio-webapp (one and a half day): java web app like the front part with two API as consummers that are `portfolio API` and `Twitter API`
 
 ## portfolio-service: Software prerequisites
 - Gradle
