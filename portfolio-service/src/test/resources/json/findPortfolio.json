@@ -1,0 +1,15 @@
+{
+    "user": {
+        "name": "Jon",
+        "lastName": "Targaryen Stark",
+        "imageUrl": "opt/jon.jpg",
+        "address": "Londres Avenue #2009",
+        "email": "jonsnow@gmail.com",
+        "phone": "054999888777",
+        "zipCode": "02002"
+    },
+    "description": "I am Jon Snow and work as Software Engineer at Winterfell",
+    "experienceSummary": "I have 10 years in software development",
+    "title": "Java developer",
+    "twitterUser": "@kitharingtoncom"
+}

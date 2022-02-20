@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "c2388fd3-b45c-4459-bd39-5623f9cf0554",
+		"name": "porftolio-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get portfolio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/portfolio/666",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"portfolio",
+						"666"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update portfolio",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\": {\r\n        \"name\": \"Jon\",\r\n        \"lastName\": \"Targaryen Stark\",\r\n        \"imageUrl\": \"opt/jon.jpg\",\r\n        \"address\": \"Londres Avenue #2009\",\r\n        \"email\": \"jonsnow@gmail.com\",\r\n        \"phone\": \"054999888777\",\r\n        \"zipCode\": \"02002\"\r\n    },\r\n    \"description\": \"I am Jon Snow and work as Software Engineer at Winterfell\",\r\n    \"experienceSummary\": \"I have 10 years in software development\",\r\n    \"title\": \"Java developer\",\r\n    \"twitterUser\": \"@kitharingtoncom\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/portfolio/666",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"portfolio",
+						"666"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
